@@ -1,0 +1,24 @@
+<Student> 
+  <FirstName> kittu </FirstName>
+  <DOB> 2002-06-30 </DOB>
+  <Email> kittu@gmail.com </Email>
+  <!-- <Address>
+    <FlatNumber>104</FlatNumber>
+    <Street>gandhi appartments</Street>
+    <City>Hyderabad</City>  
+  </Address> -->
+        <Addresses>
+            <permAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>gandhi appartments</Street>
+                <City>Hyderabad</City>  
+            </permAddress>
+        
+        <CurrentmAddress>
+                <FlatNumber>104</FlatNumber>
+                <Street>gandhi appartments</Street>
+                <City>Hyderabad</City>  
+            </CurrentAddress>
+        
+        </Addresses>
+</Student>

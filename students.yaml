@@ -1,0 +1,29 @@
+-  name: "krishna reddy"
+   dob:"2002-06-30"
+   mobileNmuber:1234567890
+   addresses:
+   - flatnumber:104
+     street:gandhi nagar
+     city:hyedrabad
+     type:current
+
+   - flatNumber:104
+     street:gandhi nagar
+     city:hydrabad
+     type:perminent
+
+
+-  name: "ramakoti reddy"
+   dob:"2002-06-30"
+   mobileNmuber:1234567890
+   addresses:
+   - flatnumber:104
+     street:gandhi nagar
+     city:hyedrabad
+     type:current
+
+   - flatNumber:104
+     street:gandhi nagar
+     city:hydrabad
+     type:perminent
+              

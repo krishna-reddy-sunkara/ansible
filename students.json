@@ -1,0 +1,51 @@
+{
+   "Students":[
+        {
+                "firstName": "sunkara krishna reddy",
+                "dob": "1999--01-01",
+                "addresses":[
+                    {
+                        "type": "perm",
+                        "flatNumber": 104,
+                        "street": "gandhi nagar",
+                        "city": "hyderabad"
+                        
+                    },
+
+                    {
+                        "type": "current",
+                        "flatNumber":104,
+                        "street": "gandhi nagar",
+                        "city": "hyderabad"
+                    }
+                    
+                ],
+                "skills": ["java", "devops","cloud"]   
+    
+       },
+       {
+                "firstName": "sunkara krishna reddy",
+                "dob": "1999--01-01",
+                "addresses":[
+                    {
+                        "type": "perm",
+                        "flatNumber": 104,
+                        "street": "gandhi nagar",
+                        "city": "hyderabad"
+                        
+                    },
+
+                    {
+                        "type": "current",
+                        "flatNumber":104,
+                        "street": "gandhi nagar",
+                        "city": "hyderabad"
+                    }
+                    
+                ],
+                "skills": ["java", "devops","cloud"]   
+    
+       }
+  ]
+   
+}
