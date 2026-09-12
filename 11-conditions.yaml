@@ -5,3 +5,9 @@
    - name: print facts
      ansible.builtin.debug:
       msg: "{{ ansible_facts }}"
+   
+   - name: check redhat or not
+     ansible.builtin.debug:
+      msg: " yes, packagevmanager is redhat "
+     when: ansible-facts.os-family== "redhat"
+        
