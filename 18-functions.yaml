@@ -41,4 +41,4 @@
 
    - name: converting list to map
      ansible.builtin.debug:
-      msg: "{{ maplist | items2dict }}"   
+      msg: "{{ maplist | items2dict | dict2items }}"   
