@@ -14,4 +14,4 @@
     vars:
      name: "ansible from task"
   ansible.builtin.debug:
-   msg: "hai {{ NAME }}"
+   msg: "hai {{ 'NAME' }}"
