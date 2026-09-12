@@ -13,12 +13,11 @@
    - SHELL
    - ANSIBLE
   tasks:
-   - name: print the variables
-     ansible.builtin.debug:
-      msg: |
+    - name: print the variables
+      ansible.builtin.debug:
+       msg: |
           program is: {{ PROGRAM }}
           duretion is: {{ DURETION }}
           is_live?: {{ IS_LIVE }}
           details is: {{ DETAILS }}
           topics is: {{ TOPICS }}
-          
