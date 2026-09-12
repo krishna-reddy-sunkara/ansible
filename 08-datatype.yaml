@@ -1,5 +1,5 @@
-- name: datatypes demo
-  host: local
+- name: data types demo
+  hosts: local
   connection: local
   vars:
    PROGRAM: "Devops with aws"
@@ -8,10 +8,10 @@
    DETAILS:
     MONTHS: 4
     TRAINER: "krishna reddy"
-    TOPICS:
-    - LINUX
-    - SHELL
-    - ANSIBLE
+   TOPICS:
+    - linux
+    - shell
+    - ansible
   tasks:
     - name: print the variables
       ansible.builtin.debug:
