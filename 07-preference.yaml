@@ -1,8 +1,8 @@
 - name: preference
   hosts: local
   connection: local
-  vars:
-   NAME: "ansible from play"
+ # vars:
+  # NAME: "ansible from play"
   vars_files:
   - course.yaml 
   #vars_prompt:
@@ -14,7 +14,7 @@
      #vars: 
      # NAME: "ansible from task"
      ansible.builtin.debug:
-       msg: "hai {{ NAME }}"
+      # msg: "hai {{ NAME }}"
 
    #args
    #promt    
