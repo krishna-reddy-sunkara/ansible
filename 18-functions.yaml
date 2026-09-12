@@ -3,10 +3,10 @@
   connection: local
   vars:
    topics: linux, ansible, shell, terraform
-  tags:
-   - raju
-   - kittu
-   - srinu 
+   tags:
+    - raju
+    - kittu
+    - srinu 
   tasks:
    - name: greeting
      ansible.builtin.debug:
