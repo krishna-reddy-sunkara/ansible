@@ -6,7 +6,23 @@
    tags:
     project: roboshop
     tools: linux
-    environment: dev    
+    environment: dev   
+    maplist:
+     [
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "tools",
+            "value": "linux"
+        },
+        {
+            "key": "environment",
+            "value": "dev"
+        }
+    ]
+   
 
   tasks:
    - name: greeting
@@ -20,3 +36,7 @@
    - name: converting list to srting   
      ansible.builtin.debug:
       msg: "{{ tags | dict2items }}"
+
+   - name: converting list to map
+     ansible.builtin.debug:
+      msg: "{{maplist | items2dict}}"   
