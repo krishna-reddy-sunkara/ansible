@@ -3,7 +3,7 @@
   connection: local
   vars:
    topics: linux, ansible, shell, terraform
-  task:
+  tasks:
    - name: greeting
      ansible.builtin.debug:
       msg: "hai siva kumar, {{ GREETING | default('raju') }}"
