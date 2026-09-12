@@ -4,9 +4,15 @@
   vars:
    topics: linux, ansible, shell, terraform
    tags:
-    - raju
-    - kittu
-    - srinu 
+        {
+        "msg": [
+            "linux",
+            " ansible",
+            " shell",
+            " terraform"
+        ]
+    }
+
   tasks:
    - name: greeting
      ansible.builtin.debug:
