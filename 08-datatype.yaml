@@ -9,9 +9,9 @@
     MONTHS: 4
     TRAINER: "krishna reddy"
    TOPICS:
-   - LINUX
-   - SHELL
-   - ANSIBLE
+    - LINUX
+    - SHELL
+    - ANSIBLE
   tasks:
     - name: print the variables
       ansible.builtin.debug:
