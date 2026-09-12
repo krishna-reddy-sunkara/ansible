@@ -10,7 +10,7 @@
      ansible.builtin.debug:
       msg: "{{ user_output }}"
 
-   - name: command module test
+   - name: command module fine
      ansible.builtin.debug: ls -ltr > files.txt  
      register: files_output
 
