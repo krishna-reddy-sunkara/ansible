@@ -1,0 +1,13 @@
+- name: demo on loop
+  hosts: local
+  connection: local
+  tasks:
+   - name: install packages
+     ansible.builtin.service:
+      name: "{{ name.item }}"
+      state: "{{ item.state }}""
+
+     loop:
+     - { name: "mysql", state: "absent" }
+     - { name: "mysql", state: "absent" }
+     - { name: "mysql", state: "absent" }
