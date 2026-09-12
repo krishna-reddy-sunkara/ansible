@@ -7,20 +7,22 @@
     project: roboshop
     tools: linux
     environment: dev   
-    maplist: [
-        {
-            "key": "project",
-            "value": "roboshop"
-        },
-        {
-            "key": "tools",
-            "value": "linux"
-        },
-        {
-            "key": "environment",
-            "value": "dev"
-        }
-    ]
+    maplist:{ 
+          [
+              {
+                  "key": "project",
+                  "value": "roboshop"
+              },
+              {
+                  "key": "tools",
+                  "value": "linux"
+              },
+              {
+                  "key": "environment",
+                  "value": "dev"
+              }
+          ]
+        } 
      
    
 
