@@ -7,8 +7,7 @@
     project: roboshop
     tools: linux
     environment: dev   
-    maplist:
-          [
+    maplist: [
               {
                   "key": "project",
                   "value": "roboshop"
@@ -23,6 +22,7 @@
               }
           ]
         
+          
      
    
 
