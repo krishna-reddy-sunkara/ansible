@@ -9,5 +9,5 @@
    - name: check redhat or not
      ansible.builtin.debug:
       msg: " yes, packagevmanager is redhat "
-     when: ansible-facts.os-family == "redhat"
+     when: ansible-facts.os_family == "redhat"
         
