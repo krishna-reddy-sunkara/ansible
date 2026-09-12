@@ -11,7 +11,7 @@
       msg: "{{ user_output }}"
 
    - name: command module fine
-     ansible.builtin.debug: ls -ltr > files.txt  
+     ansible.builtin.shell: ls -ltr > files.txt  
      register: files_output
 
    - name: print output  
