@@ -4,14 +4,9 @@
   vars:
    topics: linux, ansible, shell, terraform
    tags:
-        {
-        "msg": [
-            "linux",
-            " ansible",
-            " shell",
-            " terraform"
-        ]
-    }
+    project: roboshop
+    tools: linux
+    environment: dev    
 
   tasks:
    - name: greeting
